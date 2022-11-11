@@ -1,5 +1,5 @@
 let tabuada = 1;
-let nome = "Ana Julia";
+let nome = "ana julia";
 
 function escreva() {
     document.write("tabuada do " + tabuada + "<br>")
@@ -97,5 +97,22 @@ function calcule() {
 
 
     document.getElementById("resultado").innerHTML = r;
+  function calculaESG()}
+     let a = -1;
+     let b = 5;
+     let c = -6;
+     delta =(b*b) - (4*a*c);
+     if (delta < 0){
+         não tem solução.
+     }else{
+
+    raiz = Math.sqrt(delta);
+    x1 =((-b)+raiz)/(2*a);
+    x2 =((-b)-raiz)/(2*a);
+    raiz ="x1="+x1 +" e x2="+x2;
+    
+
+     document.getElementById("raiz").value =delta;
 
 }
+/
